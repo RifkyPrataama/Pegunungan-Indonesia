@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata</title>
+
+    <meta name="description" content="Mari nikmati keindahan alam Indonesia dengan IndonesiaExplore. Temukan informasi tentang pegunungan dan tempat wisata terbaik di Indonesia.">
+    <meta name="keywords" content="Indonesia, wisata, pegunungan, alam, travel">
+
+    <link rel="icon" href="./img/icon.png" type="image/png">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="document.getElementById('loading').style.display='none';">
+
+    <!-- Loading Animation -->
+    <div id="loading">
+        <img src="./img/load.gif" alt="Loading...">
+    </div>
+    <!--end-->
+    
+    <!--navbar-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Indonesia<span>Explore</span></a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#mount">Pegunungan</a>
+            <!-- <a href="#weather">Cuaca Terkini</a>
+            <a href="#community">Komunitas</a>
+            <a href="#events">Acara</a> -->
+            <a href="#contact">Kontak</a>
+            <!-- <a href="#shop">Toko Online</a> -->
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!--search form-->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!--end-->
+
+    </nav>
+    <!--end-->
+
+    <!--hero section-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari Nikmati Keindahan Alam <span>Indonesia</span></h1>
+            <p>Nikmati keindahan alam pegunungan Indonesia yang menakjubkan. Dari puncak yang menjulang tinggi hingga lembah hijau yang menenangkan, temukan petualangan tak terlupakan di negeri seribu gunung ini.</p>
+        </main>
+    </section>
+    <!--end-->
+
+    <!--about section-->
+    <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="bromo-bg.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Informasi pegunungan Indonesia</h3>
+                <p>Gunung-gunung di Indonesia menawarkan berbagai pengalaman bagi para pendaki, mulai dari trekking yang menantang hingga pemandangan matahari terbit atau terbenam yang menakjubkan. Masing-masing gunung memiliki karakteristik uniknya sendiri, mulai dari hutan tropis yang lebat hingga kawah berapi yang aktif.</p>
+                <p>Namun, selain menjadi destinasi wisata yang populer, gunung-gunung ini juga penting bagi ekosistem regional. Mereka menyediakan habitat bagi berbagai spesies flora dan fauna yang endemik, serta menjaga kestabilan ekologis dan hidrologis. Oleh karena itu, menjaga kelestarian gunung-gunung di Indonesia menjadi penting untuk melestarikan keanekaragaman hayati dan lingkungan hidup.</p>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+
+    <!--mount section-->
+    <section id="mount" class="mount">
+        <h2><span>Gunung</span> Indonesia</h2>
+        <p>Berikut beberapa dari banyak pegunungan yang berada di Indonesia</p>
+
+        <div class="row">
+            <div class="mount-card">
+                <img src="img/mount/merbabu.jpg" alt="Merbabu" class="mount-card-img">
+                <h3 class="mount-card-title">- Gunung Merbabu -</h3>
+            </div>
+            <div class="mount-card">
+                <img src="img/mount/dieng.jpg" alt="Dieng" class="mount-card-img">
+                <h3 class="mount-card-title">- Gunung Dieng -</h3>
+            </div>
+            <div class="mount-card">
+                <img src="img/mount/podokoyo.jpg" alt="Podokoyo" class="mount-card-img">
+                <h3 class="mount-card-title">- Gunung Podokoyo -</h3>
+            </div>
+            <div class="mount-card">
+                <img src="img/mount/semeru.jpg" alt="Semeru" class="mount-card-img">
+                <h3 class="mount-card-title">- Gunung Semeru -</h3>
+            </div>
+            <div class="mount-card">
+                <img src="img/mount/batur.jpg" alt="Batur" class="mount-card-img">
+                <h3 class="mount-card-title">- Gunung Batur -</h3>
+            </div>
+            <div class="mount-card">
+                <img src="img/mount/sindoro.jpg" alt="Sindoro" class="mount-card-img">
+                <h3 class="mount-card-title">- Gunung Sindoro -</h3>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+
+
+    <!--weather section-->
+    <!-- <section id="weather" class="weather">
+        <h2><span>Cuaca</span> dan Kondisi Terkini</h2>
+        <p>Informasi terbaru tentang cuaca dan kondisi jalur pendakian di sekitar pegunungan.</p>
+        Add your weather update functionality here -->
+    <!-- </section> -->
+    <!--end-->
+
+
+    <!--community section-->
+    <!-- <section id="community" class="community">
+        <h2><span>Forum</span> Komunitas</h2>
+        <p>Diskusi, berbagi pengalaman, tips, dan rekomendasi dengan sesama pendaki dan pecinta alam.</p>
+        Add your community forum functionality here -->
+    <!-- </section> -->
+    <!--end-->
+
+
+    <!--events section-->
+    <!-- <section id="events" class="events">
+        <h2><span>Kalender</span> Acara</h2>
+        <p>Informasi tentang acara terkait pegunungan, seperti festival alam, acara pendakian bersama, atau workshop.</p>
+        Add your events calendar functionality here -->
+    <!-- </section> -->
+    <!--end-->
+
+
+    <!-- gallery section-->
+    <section id="gallery">
+        <div><img src="./img/mount/iniere.jpg" alt="gallery"></div>
+        <div><img src="./img/mount/galeri4.jpg" alt="gallery"></div>
+        <div><img src="./img/mount/galeri5.jpg" alt="gallery"></div>
+        <div><img src="./img/mount/gal6.jpg" alt="gallery"></div>
+        <div><img src="./img/mount/galeri2.jpg" alt="gallery"></div>
+        <div><img src="./img/mount/galeri6.jpg" alt="gallery"></div>
+    </section>
+    <!--end -->
+    
+    <!--contact section-->
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Ikuti kami di media sosial untuk mendapatkan pembaruan terbaru tentang petualangan, komunitas, dan kampanye konservasi kami. Bergabunglah dengan ribuan pecinta alam lainnya dalam menjelajahi keindahan alam pegunungan Indonesia!</p>
+
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.817821263012!2d107.77700670693655!3d-6.960995528466122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c489a884ba37%3A0x5379f8cbf0584abb!2sSAMSAT%20Rancaekek%20Kab.%20Bandung!5e0!3m2!1sid!2sid!4v1718703949097!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="no hp">
+                </div>
+                <button type="submit" class="btn">kirim pesan</button>
+            </form>
+
+        </div>
+    </section>
+    <!--end-->
+
+
+    <!--shop section-->
+    <!-- <section id="shop" class="shop">
+        <h2><span>Toko</span> Online</h2>
+        <p>Menjual perlengkapan pendakian, suvenir, atau produk-produk lokal.</p>
+        Add your online shop functionality here -->
+    <!-- </section> -->
+    <!--end-->
+
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" onclick="scrollToTop()"><i data-feather="arrow-up"></i></button>
+    <!--end-->
+
+    <!--footer-->
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/rifkyprataama"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="youtube"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Pegunungan</a>
+            <!-- <a href="#weather">Cuaca Terkini</a>
+            <a href="#community">Komunitas</a>
+            <a href="#events">Acara</a> -->
+            <a href="#contact">Kontak</a>
+            <!-- <a href="#shop">toko Online</a> -->
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">rifkyprataama</a> | &copy; 2024.</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!--feather icons-->
+    <script>
+        feather.replace()
+    </script>
+    <!--end-->
+
+    <!--js-->
+    <script src="js/script.js"></script>
+    <!--end-->
+
+</body>
+</html>
